@@ -1,0 +1,18 @@
+#content img {
+    width: 100%;
+    max-width: 800px;
+    object-fit: contain;
+}
+
+#intro {
+    background-image: url(../src/main-intro.png);
+}
+
+
+#footer {
+    position: static;
+    margin: 20px 0;
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 1em;
+    color: #a7c584;
+}

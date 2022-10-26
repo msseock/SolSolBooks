@@ -1,0 +1,25 @@
+#intro {
+    background-image: url(../../src/goods/goods-intro.png);
+}
+
+.intro-text {
+    margin-left: 400px;
+}
+
+.first {
+    padding-top: 50px;
+}
+
+.goods-picture {
+    width: 60%;
+    margin: 40px;
+}
+
+/* footer
+#footer {
+    position: relative;
+    top: 2400px; left: auto;
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 20pt;
+    color: #a7c584;
+} */

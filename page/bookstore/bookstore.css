@@ -1,0 +1,41 @@
+#intro {
+    background-image: url(../../src/bookstore/bookstore-intro.png);
+}
+
+.intro-text {
+    margin-left: -500px;
+}
+
+.bookshopmap-logo {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+#bookstore_intro a:link {
+    color: black;
+    text-decoration: underline wavy; 
+}
+#bookstore_intro a:visited {
+    color: #f6c915;
+}
+
+.bookstore-picture {
+    width: 400px;
+    position: relative;
+}
+
+#bookstore_links {
+    margin: 0 0 100px 0;
+}
+
+/* footer */
+/* #footer {
+    position: relative;
+    top: 1900px; left: auto;
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 20pt;
+    color: #a7c584;
+} */

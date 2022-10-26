@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* reset */
+html,body {
+	height: 100%; width: 100%; background: #eae3c0; text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*폰트 등록*/
+@font-face {
+font-family:"KoPub돋움Bold";
+src:url("../../src/fonts/KOPUBWORLD_TTF_FONTS/dotum/KoPubWorld\ Dotum\ Bold.ttf") format("truetype");
+}
+@font-face {
+font-family:"KoPub돋움Normal";
+src:url("../../src/fonts/KOPUBWORLD_TTF_FONTS/dotum/KoPubWorld\ Dotum\ Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family:"KoPub돋움Light";
+    src:url("../../src/fonts/KOPUBWORLD_TTF_FONTS/dotum/KoPubWorld\ Dotum\ Light.ttf") format("truetype");
+    }
+@font-face {
+font-family:"KoPub바탕Bold";
+src:url("../../src/fonts/KOPUBWORLD_TTF_FONTS/batang/KoPubWorld\ Batang\ Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family:"KoPub바탕Normal";
+    src:url("../../src/fonts/KOPUBWORLD_TTF_FONTS/batang/KoPubWorld\ Batang\ Medium.ttf") format("truetype");
+    }
+@font-face {
+font-family:"KoPub바탕Light";
+src:url("../../src/fonts/KOPUBWORLD_TTF_FONTS/batang/KoPubWorld\ Batang\ Light.ttf") format("truetype");
+}
+
+
+
+
+/* header 설정 */
+#header {
+    width: 100%;
+    background-color: #6b8a47;
+    position: absolute;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#logo img {
+    width: 300px;
+    position: relative;
+    float: left;
+    margin: 0 30px;
+}
+.menu-bar {
+    position: relative;
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 20pt;
+}
+.first-menu li, .second-menu li {
+    float: left;
+    margin-left: 30px;
+    padding: 65px 0;
+}
+.first-menu a, .second-menu a {
+    color: #a7c584;
+    text-decoration: none;
+}
+.header-content {
+    position: relative;
+    margin-left: 33%;
+    width: 40%;
+}
+
+/* content box */
+#content {
+    background-color: white;
+    margin: auto;
+    margin-left: -630px;
+    top: 184px;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: fit-content;
+}
+p {
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 20pt;
+}
+
+/* footer */
+/* #footer {
+    position: relative;
+    top: 1970px; left: auto;
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 20pt;
+    color: #a7c584;
+} */
+/* footer도 페이지마다 새롭게 넣어주기, 이거 복사하면 됨 */

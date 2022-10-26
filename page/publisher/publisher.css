@@ -1,0 +1,39 @@
+#intro {
+    background-image: url(../../src/publisher/publisher-intro.png);
+}
+
+.intro-text {
+    margin-left: 300px;
+    /* margin-top: 130px; */
+}
+
+.text-content {
+    padding: 30px 0;
+}
+
+.publisher-logo {
+    width: 100%;
+    max-width: 300px;
+}
+
+table, td {
+    margin: 0 10px;
+    /* margin-bottom: 0px; */
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+}
+
+td {
+    text-align: center;
+    width: 600px;
+    height: 300px;
+}
+
+/* footer
+#footer {
+    position: relative;
+    top: 1550px; left: auto;
+    font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
+    font-size: 20pt;
+    color: #a7c584;
+} */
