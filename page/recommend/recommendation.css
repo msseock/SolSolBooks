@@ -3,7 +3,7 @@
 }
 
 .genre {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .underline {
@@ -30,10 +30,10 @@
 }
 
 /* footer */
-#footer {
+/* #footer {
     position: relative;
     top: 100px; left: auto;
     font-family: 'KoPub돋움Light','Malgun Gothic', sans-serif;
     font-size: 20pt;
     color: #a7c584;
-}
+} */
